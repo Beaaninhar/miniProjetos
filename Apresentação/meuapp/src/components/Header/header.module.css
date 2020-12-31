@@ -1,0 +1,39 @@
+.menuContainer {
+	background: #505d6b;
+}
+
+.menu {
+	max-width: 960px;
+	margin: 0 auto; /* Alinha ao centro */
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap; /* Para poder quebrar MOBILE*/
+	justify-content: space-between; /* Espaço igual*/
+	align-items: center; /* Centraliza o item no centro*/
+}
+
+.menu a {
+	color: white;
+}
+
+.menuLogo a {
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menuNav ul {
+	display: flex;
+	flex-wrap: wrap; /* Para poder quebrar MOBILE*/
+}
+
+.menuNav a {
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menuNav a:hover{
+	color: #1b1b1b;
+}
+

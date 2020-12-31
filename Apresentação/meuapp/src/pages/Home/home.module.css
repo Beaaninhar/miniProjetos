@@ -1,0 +1,194 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+}
+
+.ContainerPhotoDescription {
+  display: grid;
+  background-color: #708090;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 250px 250px 250px 250px;
+  grid-template-areas:
+    "Image1 Description1"
+    "Image2 Description2"
+    "Image3 Description3"
+    "Image4 Description4";
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 780px) {    
+  .ContainerPhotoDescription {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "Image1" 
+    "Description1"
+    "Image2"
+    "Description2"
+    "Image3" 
+    "Description3"
+    "Image4" 
+    "Description4";
+  }
+}
+
+.ImageOne {
+  width: 150px;
+  height: 189px;
+  justify-self: flex-end;
+  margin-right: 45px;
+  box-shadow: rgb(0 0 0 / 62%) 0px 3px 30px;
+  grid-area: Image1;
+}
+
+.DescriptionOne {
+  background-color: #b0c4de;
+  padding: 15px;
+  grid-area: Description1;
+}
+
+.DescriptionOne h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.DescriptionOne p {
+  font-family: "Inconsolata", monospace;
+  width: 500px;
+  text-align: justify;
+}
+
+@media (max-width: 780px) { 
+  .ImageOne{
+    margin-right: 0px;
+    justify-self: center;
+  }   
+  .DescriptionOne h1 {
+    font-size: 20px;
+  }
+  .DescriptionOne p {
+    width: 330px;
+    font-size: 15px;
+  }
+}
+
+.ImageTwo {
+  width: 150px;
+  height: 200px;
+  justify-self: flex-end;
+  margin-right: 45px;
+  box-shadow: rgb(0 0 0 / 62%) 0px 3px 30px;
+  grid-area: Image2;
+}
+
+.DescriptionTwo {
+  background-color: #b0c4de;
+  padding: 15px;
+  grid-area: Description2;
+}
+
+.DescriptionTwo h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.DescriptionTwo p {
+  font-family: "Inconsolata", monospace;
+  width: 500px;
+  text-align: justify;
+}
+
+@media (max-width: 780px) {   
+  .ImageTwo{
+    margin-right: 0px;
+    justify-self: center;
+  }
+  .DescriptionTwo h2 {
+    font-size: 20px;
+  }
+  .DescriptionTwo p {
+    width: 330px;
+    font-size: 15px;
+  }
+}
+
+
+.ImageThree {
+  width: 150px;
+  height: 267px;
+  justify-self: flex-end;
+  margin-right: 45px;
+  box-shadow: rgb(0 0 0 / 62%) 0px 3px 30px;
+  grid-area: Image3;
+}
+
+.DescriptionThree {
+  background-color: #b0c4de;
+  padding: 15px;
+  grid-area: Description3;
+}
+
+.DescriptionThree h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.DescriptionThree p {
+  font-family: "Inconsolata", monospace;
+  width: 500px;
+  text-align: justify;
+}
+
+@media (max-width: 780px) {    
+  .ImageThree{
+    margin-right: 0px;
+    justify-self: center;
+    margin-bottom: 40px;
+  }
+  .DescriptionThree h2 {
+    font-size: 20px;
+  }
+  .DescriptionThree p {
+    width: 330px;
+    font-size: 15px;
+  }
+}
+
+
+.ImageFour {
+  width: 150px;
+  height: 99px;
+  justify-self: flex-end;
+  margin-right: 45px;
+  box-shadow: rgb(0 0 0 / 62%) 0px 3px 30px;
+  grid-area: Image4;
+}
+
+.DescriptionFour {
+  background-color: #b0c4de;
+  padding: 15px;
+  grid-area: Description4;
+}
+
+.DescriptionFour h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.DescriptionFour p {
+  font-family: "Inconsolata", monospace;
+  width: 500px;
+  text-align: justify;
+}
+
+@media (max-width: 780px) {  
+  .ImageFour{
+    margin-right: 0px;
+    justify-self: center;
+    margin: 40px 0px;
+  }  
+  .DescriptionFour h2 {
+    font-size: 20px;
+  }
+  .DescriptionFour p {
+    width: 330px;
+    font-size: 15px;
+  }
+}
+

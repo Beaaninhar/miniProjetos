@@ -1,0 +1,81 @@
+.Container {
+  overflow: hidden;
+  background-color: #708090;
+  height: 100vh;
+}
+
+.Content {
+  display: flex;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.Item {
+  flex-shrink: 0;
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+  border-radius: 4px;
+  background-color: #b0c4de;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-top: 80px;
+  display: flex;
+}
+
+.Item img{
+  width: 50%;
+}
+
+.Item p{
+  font-family: "Inconsolata", monospace;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+@media (max-width: 780px){
+  .Item img{
+    width: 100%;
+  }
+
+  .Item {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Item p{
+    width: 80%;
+    text-align: left;
+    align-self: center;
+    margin-top: 10px;
+  }
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1rem auto;
+  
+}
+
+.Nav button{
+  background: #4682B4;
+}
+
+.Nav button:hover,
+button:focus {
+  background: #4682B4;
+  box-shadow: 0 0 0 3px #4682B4, 0 0 0 4px 	#B0E0E6;
+  outline: none;
+}
+
+.Nav button:active {
+  box-shadow: 0 0 0 3px #4682B4, 0 0 0 4px 	#B0E0E6;
+}
+
