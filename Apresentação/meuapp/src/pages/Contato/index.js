@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 import Input from "./components/Input";
 import Validation from "./components/Validation";
 
-import styles from './contato.module.css';
-
+import styles from "./contato.module.css";
 
 const Contato = () => {
   const cep = Validation("cep");
@@ -21,40 +20,45 @@ const Contato = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-    <Input
-      label="Nome"
-      id="nome"
-      type="text"
-      placeholder="Seu nome"
-      {...nome}
-    />
-    <br/>
-    <Input
-      label="Sobrenome"
-      id="sobrenome"
-      type="text"
-      placeholder="Seu sobrenome"
-      {...sobrenome}
-    />
-    <br/>
-    <Input
-      label="CEP"
-      id="cep"
-      type="text"
-      placeholder="00000-000"
-      {...cep}
-    />
-    <br/>
-    <Input
-      label="Email"
-      id="email"
-      type="email"
-      placeholder="seuemail@hotmail.com.br"
-      {...email}
-    />
-    <button style={{ margin: ".5rem 0rem 0rem 0rem" }}>Enviar</button>
-  </form>
+    <div className={styles.Container}>
+      <div className={styles.ContainerForm}>
+        <form onSubmit={handleSubmit}>
+          <Input
+            label="Nome"
+            id="nome"
+            type="text"
+            placeholder="Seu nome"
+            {...nome}
+          />
+          <br />
+          <Input
+            label="Sobrenome"
+            id="sobrenome"
+            type="text"
+            placeholder="Seu sobrenome"
+            {...sobrenome}
+          />
+          <br />
+          <Input
+            label="CEP"
+            id="cep"
+            type="text"
+            placeholder="00000-000"
+            {...cep}
+          />
+          <br />
+          <Input
+            label="Email"
+            id="email"
+            type="email"
+            placeholder="seuemail@hotmail.com.br"
+            {...email}
+          />
+          <button style={{ margin: ".5rem 0rem 0rem 0rem" }}>Enviar</button>
+          <p>OBS: Não integrado com nehuma api</p>
+        </form>
+      </div>
+    </div>
   );
 };
 

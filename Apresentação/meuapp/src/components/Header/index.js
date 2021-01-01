@@ -3,13 +3,16 @@ import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <header class={styles.menuContainer}>
-      <div class={styles.menu}>
-        <div class={styles.menuLogo}>
+    <header class={styles.MenuContainer}>
+      <div class={styles.Menu}>
+        <div class={styles.MenuLogo}>
           <a href="/">Ana Beatriz</a>
         </div>
-        <nav class={styles.menuNav}>
+        <nav class={styles.MenuNav}>
           <ul>
+          <li>
+              <a href="/">Home</a>
+            </li>
             <li>
               <a href="/certificado">Certificado</a>
             </li>

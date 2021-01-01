@@ -1,11 +1,19 @@
 /* Reset propriedades */
-body, h1, h2, p, ul, li, a {
+body, h1, h2, h3, p, ul, li, a {
 	margin: 0px;
   padding: 0px;
 }
 body {
 	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	color: #222222;
+}
+
+
+p{
+	font-family: "Inconsolata", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0px;
 }
 
 ul {

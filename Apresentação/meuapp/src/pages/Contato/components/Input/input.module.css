@@ -1,0 +1,37 @@
+label{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  display: block;
+  border: 1px solid rgb(106, 106, 106);
+  border-radius: 0.2rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: #ccc;
+  transition: 0.2s;
+}
+
+input::placeholder {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 15px;
+}
+
+
+button{
+  background: #4682B4;
+}
+
+button:hover,
+button:focus {
+  background: #4682B4;
+  box-shadow: 0 0 0 3px #4682B4, 0 0 0 4px 	#B0E0E6;
+  outline: none;
+}
+
+button:active {
+  box-shadow: 0 0 0 3px #4682B4, 0 0 0 4px 	#B0E0E6;
+}
