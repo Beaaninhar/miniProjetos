@@ -7,17 +7,17 @@ const Sobre = () => {
       id: "slide1",
       img: "/static/certificados/flexBox.jpg",
       txt:
-        "Nesse curso foi onde aprendi a ter um responsivo sem ter que usar tanto @media, depois que conheci me apaixonei!",
+        "Aqui foi onde aprendi a fazer um site responsivo sem ter que usar tanto @media.",
     },
     {
       id: "slide2",
       img: "/static/certificados/grid.jpg",
-      txt: "Nesse curso foi onde aprendi mais sobre responsividade, ficou muit mais fácil o front-end.",
+      txt: "Aqui foi onde aprendi mais sobre responsividade, ficou muito mais fácil montar o front-end.",
     },
     {
       id: "slide3",
       img: "/static/certificados/HTMLeCSS.jpg",
-      txt: "Aprendi bastante coisa nova, esse curso foi para dar uma atualizada no meu HTML e CSS.",
+      txt: "Aqui foi onde atualizei meu HTML e CSS.",
     },
     {
       id: "slide4",

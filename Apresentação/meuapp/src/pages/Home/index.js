@@ -12,11 +12,10 @@ const Home = () => {
         <div className={styles.DescriptionOne}>
           <h1>Ana Beatriz Ribeiro da Silva</h1>
           <p>
-            Busco uma oportunidade de aprendizado para ampliar ainda mais meus
-            conhecimentos, desenvolvimento profissional e de vida, sempre em
-            harmonia com a qualidade do meu trabalho e a preparação dos meus
-            dias para obter o sucesso esperado no momento da minha contratação,
-            visando sempre o meu crescimento juntamente ao da empresa
+            Comecei como jovem aprendiz e lá foi onde descobri a programação.
+            Aplicativos, sites e jogos que ensinam, distraem e fazem a diferença
+            na vidas das pessoas e eu quero fazer parte do time de pessoas que
+            melhoram a vida da sociedada.
           </p>
         </div>
         <div className={styles.ImageTwo}>
